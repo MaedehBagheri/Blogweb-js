@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Blog-websit</title>
+    
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-item"><a>خانه</a></li>
+            <li class="nav-item"><a>درباه ما</a></li>
+            <li class="nav-item"><a>پروفایل</a></li>
+            <li class="nav-item"><a>ارتباط با ما</a></li>
+        </ul>
+        <div class="navbar">
+            <span><img src="./assets/images/images.png" alt=""></span>
+
+        </div>
+    </nav>
+<!-- modal -->
+ <div class="backdrop hidden"></div>
+<div class="modal hidden">
+  <div class="main-modal">
+    <h2>بلاگ جدید</h2>
+    <input type="text" class="title" placeholder="تیتر بلاگ ..."/>
+ 
+ <div>
+    <button class="close-modal">بستن</button>
+    <button class="new-blog close-modal" >ثبت بلاگ</button>
+ </div>
+  </div>
+</div>
+
+<!-- landeing-page -->
+<div class="blog-landing">
+<div class="landing-title"><h1>وبلاگ یک ابزار قدرتمند برای ساخت و مدیریت وبلاگ است. وبلاگ به شما کمک می‌کند
+      تا با سرعت و سهولت اطلاعات، خاطرات، مطالب و مقالات خود را در اینترنت منتشر کنید.</h1></div> 
+      <div class="added-blog">
+        <button class="add-blog">ثبت بلاگ جدید</button>
+     </div> 
+ </div>
+  
+<div class="blog-center">
+        <div class="blog-detail">
+            <select class="filter-blogs" >
+             <option selected value="newest">جدیدترین</option>
+             <option value="oldest">قدیمی ترین</option>
+            </select>
+          
+            <div class="blogs-title">وبلاگ های بروز شده</div>
+<div class="search-input">
+    <input id="search-product" type="text" placeholder="جستجو کنید ...">
+</div>
+</div>
+
+
+        <div class="carts-blog"></div>
+
+
+ </div>
+
+    <!-- footer -->
+    <section class="footer">
+        <div class="main-footer">
+            <span>ورود به بخش مدیریت/</span>
+            <span>وبلاگ های بروز شده/</span>
+            <span>فهرست وبلاگ ها/</span>
+            <span>ساخت وبلاگ جدید/</span>
+            <span>راهنما/</span>
+            <span>تبلیغات در وبلاگ ها/</span>
+            <span>گزارش تخلف/</span>
+            <span>تماس باما</span>
+        </div>
+    </section>
+
+    <script src="./js/app.js" type="module" ></script>
+    </body>
+</html>

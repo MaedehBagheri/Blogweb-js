@@ -1,0 +1,42 @@
+
+@font-face {
+    font-family: "Estedad-Black";
+    src: url(/assets/fonts/Estedad-Black.ttf);
+}
+@font-face {
+    font-family: "Estedad-Light";
+    src: url(/assets/fonts/Estedad-Light.ttf);
+}
+
+@font-face {
+    font-family: "Estedad-Medium";
+    src: url(/assets/fonts/Vazir-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Estedad-Medium";
+    src: url(/assets/fonts/Vazir-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Estedad-thin";
+    src: url(/assets/fonts/Vazir-Thin.ttf);
+}
+
+header{
+    font-family: "Estedad-thin";
+    font-weight: 500;
+    font-size: 18px;
+}
+body{
+    font-family: "Estedad-Medium" ;
+}
+
+h1{
+    font-family: "Estedad-Medium";
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+textarea{
+    font-family:"Estedad-Medium" ;
+    font-size: 14px;}
